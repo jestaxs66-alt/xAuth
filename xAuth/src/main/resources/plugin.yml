@@ -1,0 +1,12 @@
+name: xAuth
+version: 1.0
+main: com.jesta.xauth.xAuth
+api-version: 1.18
+commands:
+  register:
+    description: Kayit ol
+  login:
+    description: Giris yap
+  xauth:
+    description: Admin komutlari
+    permission: xauth.admin

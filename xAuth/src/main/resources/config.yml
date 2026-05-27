@@ -1,0 +1,15 @@
+settings:
+  bot-protection: true
+  password:
+    min-length: 6
+    max-length: 16
+    blacklist:
+      - "123456"
+      - "password"
+      - "qwerty"
+  auth:
+    max-wrong-attempts: 3
+    timeout-seconds: 60
+    use-bossbar: true
+spawn: null
+blacklist: []
